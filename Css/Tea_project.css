@@ -1,0 +1,166 @@
+    html {
+        font-family: Helvetica;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font: size 22px;
+        color: seashell;
+        background: black;
+        /* width: 100%; */
+    }
+    
+    header {
+        /* position: fixed; */
+        background: black;
+        display: block;
+        height: 50px;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    }
+    
+    header img {
+        /* display: inline; */
+        float: left;
+    }
+
+    header div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    header div p {
+        /* display: inline; */
+        padding: 0 25px;
+    }
+    
+    header div a {
+        text-decoration: none;
+        color: seashell;
+    }
+
+    header div a:hover{
+        cursor: pointer;
+        color: aqua;
+    }
+    
+    main img {
+        margin: 0 auto;
+        width: 100%;
+        height:0%;
+    }
+
+    main .mission_statement{
+        position: relative;
+        bottom: 500px;
+        background: black;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    main .Tea_month{
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+    }
+
+    section .img_list1{
+        display: flex;
+        justify-content: center;
+    }
+    section .img_list1 img{
+        margin:0 20px;
+        position: relative;
+    }
+
+    section .img_list1 img:hover{
+        bottom: 10px;
+        left: 10px;
+    }
+
+    section .p_list1{
+        display: flex;
+        justify-content: center;
+    }
+
+    section .p_list1 p{
+        padding: 0 100px;
+    }
+
+    section .img_list2{
+        display: flex;
+        justify-content: center;
+    }
+    section .img_list2 img{
+        margin:20px 20px 0 20px;
+        position: relative;
+    }
+
+    section .img_list2 img:hover{
+        bottom: 10px;
+        left: 10px;
+    }
+
+    section .p_list2{
+        display: flex;
+        justify-content: center;
+    }
+
+    section .p_list2 p{
+        padding: 0 100px 20px 100px;
+    }
+
+    aside img{
+        width: 100%;
+        /* position: absolute; */
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+    }
+
+    aside h2{
+        text-align: center;
+        position: relative;
+        bottom: 450px;
+    }
+
+    aside .locations{
+        display: flex;
+        justify-content: center;
+    }
+
+    aside .downtown{
+        background: black;
+        position: relative;
+        bottom: 420px;
+        margin: 0 30px 0 30px;
+        text-align: center;
+        padding: 0 10px;
+        width: 220px;
+        height: 180px;
+    }
+
+    footer .contact_info{
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+    }
+
+    footer .contact_info h2{
+        padding-bottom: 20px;
+    }
+
+    footer .contact_info p{
+        padding-bottom: 20px;
+    }
+
+
+    footer .copyright{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    
+
+    
